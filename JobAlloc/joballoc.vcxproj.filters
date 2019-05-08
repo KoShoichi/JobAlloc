@@ -1,0 +1,181 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{376485d7-61a8-460d-a35e-4c0e11ca2bdf}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{f101dd7a-613b-46d8-8ef6-df159e11ab64}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{e4ee52b7-6bee-43b7-8657-ce175faa3233}</UniqueIdentifier>
+      <Extensions>ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe</Extensions>
+    </Filter>
+    <Filter Include="common">
+      <UniqueIdentifier>{f01471cd-b28c-4d0a-a409-4f23acc1306b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="StdAfx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="joballoc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="common\pattern_nPnC.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="common\linked_list.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="common\applog.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="common\time_util.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="common\string_util.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="common\file_util.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="common\mutex.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="common\arraylist.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="common\object.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="common\sequence.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="common\Thread.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="common\string_array.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="common\string_obj.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="dataContext.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="employeeConsumer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TaskConsumer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="common\dictionary.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="TaskHandler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="employee.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="job.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="StdAfx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="joballoc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="common\pattern_nPnC.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\sequence.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\frame_public.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\linked_list.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\applog.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\Thread.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\pthread.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\time_util.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\string_util.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\file_util.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\mutex.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\sched.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\arraylist.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\object.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\string_array.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="dataContext.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="employeeConsumer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TaskConsumer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="common\dictionary.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="TaskHandler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="employee.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="job.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="small.ico">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="joballoc.rc">
+      <Filter>Source Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="joballoc.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+</Project>
